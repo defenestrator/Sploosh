@@ -1,0 +1,28 @@
+{
+    "name": "edos-io/Sploosh",
+    "type": "library",
+    "description": "A wrapper for a the USGS Instantaneous Values Web Service, to retrieve JSON.",
+    "keywords": [
+        "USGS",
+        "United States Geological Survey",
+        "Streamflow"
+    ],
+    "homepage": "https://github.com/edos-io/Sploosh",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy J. Anderson",
+            "email": "jeremy@edos.io",
+            "homepage": "http://edos.io",
+            "role": "Performing Elephant"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.2.0",
+        "nesbot/carbon": "~1.19.0"
+    },
+    "autoload": {
+        "psr-4": {"Sploosh\\": "src/Sploosh/"}
+    }
+}
