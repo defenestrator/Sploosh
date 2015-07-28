@@ -6,10 +6,6 @@ namespace Sploosh;
  * Class Sploosh
  * @package Sploosh
  */
-/**
- * Class Sploosh
- * @package Sploosh
- */
 abstract class Sploosh implements \Iterator
 {
     /**

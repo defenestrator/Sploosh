@@ -9,7 +9,7 @@ use Carbon\Carbon;
  * Class StreamFlow
  * @package Sploosh
  */
-class StreamFlow extends Sploosh
+class TimeFrame extends Sploosh
 {
     /**
      *
@@ -25,7 +25,7 @@ class StreamFlow extends Sploosh
             ]
         );
 
-        return $this->getQuakes();
+        return $this->getFlows();
     }
 
     /**
